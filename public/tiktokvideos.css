@@ -1,0 +1,240 @@
+/* "Tik Tok Pets" Title */
+
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#head {
+  display: flex;  
+}
+
+/* tik tok title */
+header {
+  color: black;
+  font-family: 'Boogaloo', sans-serif; 
+	font-size: 48px;
+}
+
+/* An extra div to divide the header into thirds */
+.space {
+  width: 33.3%;
+  text-align: center;
+}
+
+/* the spacing for the title class */
+.t {
+  width: 33.3%;
+  text-align: center;
+
+}
+
+/* spacing for the video button */
+#videos{
+  width: 33.3%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+/* styling for the video button */ 
+#videoButton {
+  display: flex;
+  vertical-align: text-top;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  background-color: rgb(238, 29,82,0.9);
+  color: white;
+  height: 50px;
+  width: 120px;
+}
+
+body {
+  padding: 50px;
+  color: white;
+}
+
+/* the submit box */
+.main {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 80px;
+  width: 500px;
+  height: 350px;
+  background: linear-gradient(120deg, rgba(238, 29, 82, 0.9) 15%, 
+                              rgb(105, 201, 208) 100%);
+  color: white;
+  padding: 50px 0px 50px 0px;
+  border-radius: 20px;
+  text-align: left;
+  items-align: center;
+}
+
+.container {
+  display: inline-block;
+  justify-content: center;
+  width: 70%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* this is for the labels */
+label {
+   margin-left:10px;
+}
+
+.top {
+  display:flex;
+  justify-content: center;
+}
+
+/* this is to style the continue button */ 
+#continueButton {
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 10px;
+  height: 40px;
+  width: 120px;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  background-color: rgb(238, 29,82,0.9);
+  color: white;
+}
+
+
+.continue {
+  margin: auto;
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 100px;
+  background-color: red;
+}
+
+/* this is for the user to input in boxes */
+input {
+  border-radius: 10px;
+  height: 40px;
+  width:94%;
+  padding-left: 20px;
+}
+
+input:focus {
+  border: rgb(105, 201, 208);
+  border-style: solid;
+  border-width: 2px;
+}
+
+/* submit a video */
+h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+/* this is for tablet */
+@media only screen and (max-width: 900px) {
+  body {
+    padding: 20px;
+    color: white;
+  }
+
+  .space {
+    width: 0px;
+  }
+
+  .t {
+    width: 55%;
+    text-align: center;
+  }
+
+  #videos {
+    width: 50%;
+    justify-content: center;
+  }
+  
+  header {
+    display: flex-start;
+    color: black;
+  }
+
+  #videoButton {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    height: 40px;
+    width: 120px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    background-color: rgb(238, 29,82,0.9);
+    color: white; 
+  }
+  
+  .main {
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* this is for mobile */ 
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size : 20px;
+  }
+
+  .space {
+    width: 0%;
+  }
+  .t {
+    width: 50%;
+    text-align: center;
+  }
+  #videos {
+    width: 50%;
+    justify-content: center;
+  }
+  
+  #continueButton {
+    font-size: 16px;
+  }
+
+  .main {
+    width: 85%;
+  }
+  
+  body {
+    color: white;
+  }
+  
+  header {
+    display: flex-start;
+    color: black;
+    
+  }
+  
+  #videoButton {
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    height: 40px;
+    width: 120px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    background-color: rgb(238, 29,82,0.9);
+    color: white;
+  }
+}

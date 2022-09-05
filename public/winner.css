@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:ital,wght@0,400;0,500;0,700;1,700&display=swap');
+
+.winnerHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+}
+
+.video-nickname {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width:600px) {
+  div.headerRight {
+      width: 30%;
+      justify-content: center;
+    }
+}
+

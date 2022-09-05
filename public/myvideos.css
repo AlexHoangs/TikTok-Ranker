@@ -1,0 +1,174 @@
+#playButton {
+  display: flex;
+  vertical-align: text-top;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  background-color: rgb(238, 29,82,0.9);
+  color: white;
+  height: 50px;
+  width: 120px;
+}
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+}
+.storedVideos {
+  display:flex;
+  flex-wrap:wrap;
+  column-fill: auto;
+  justify-content:center;
+/*   flex-direction: column; */
+  justify-content:space-evenly;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.rows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  margin-right: 10px;
+}
+
+.input {
+  display: flex;
+  padding-bottom: 20px;
+  vertical-align: text-top;
+}
+
+.x {
+  background: none;
+  padding-left: 10px;
+  color: rgb(238, 29,82,0.9);
+  font-family: 'Boogaloo', sans-serif;
+  font-size: 64px;
+  margin-top: -11px;
+}
+
+input {
+  border-radius: 10px;
+  border: 2px dashed lightgrey;
+  height: 50px;
+  width:500px;
+  padding-left: 20px;
+  background-color: white;
+}
+
+body {
+  padding: 50px;
+}
+
+header {
+  display: flex-start;
+  color: black;
+	font-family: 'Boogaloo', sans-serif;
+	font-size: 48px;
+}
+/* 
+header {
+  display:flex;
+  justify-content: center;
+} */
+header {
+  color: black;
+  font-family: 'Boogaloo', sans-serif; 
+	font-size: 48px;
+}
+#head {
+  display:flex;
+}
+
+.prompt {
+  padding: 50px;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+}
+.space {
+  width:33.33%;
+  text-align:center;
+}
+.t {
+  width:33.33%;
+  text-align:center;
+}
+#addVideo {
+  width:33.33%;
+  display:flex;
+  justify-content:right;
+  align-items:center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.videos {
+	display: flex;
+	justify-content: center;
+  flex-direction: column;
+}
+
+/* styling for the video button */ 
+#addButton {
+  display: flex;
+  vertical-align: text-top;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  background-color: rgb(238, 29,82,0.9);
+  color: white;
+  height: 50px;
+  width: 120px;
+}
+
+@media only screen and (max-width: 900px) {
+  .rows {
+  display: inline-block;
+  }
+
+  .x {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .rows {
+  display: inline-block;
+  }
+
+  .prompt {
+  padding: 50px;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  }
+
+  header {
+  color: black;
+  font-family: 'Boogaloo', sans-serif; 
+	font-size: 32px;
+}
+
+  #addButton {
+    font-size: 16px;
+  }
+
+  #playButton {
+    font-size: 16px;
+  }
+
+  .x {
+    font-size: 44px;
+  }
+    
+}
